@@ -1,0 +1,39 @@
+{
+  "name": "svgzr",
+  "description": "Convert svg to png, and create templates for sass and compass with base64 svg and png.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/aditollo/svgzr",
+  "author": {
+    "name": "Alfonso di Tollo",
+    "email": "alfonso.ditollo@gmail.com",
+    "url": "https://github.com/aditollo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aditollo/svgzr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aditollo/svgzr/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/aditollo/svgzr/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "./lib/svgzr.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "svg2png": "^1.1.0",
+    "xml2js": "^0.4.4",
+    "svgo": "^0.5.0",
+    "q": "^1.1.1",
+    "mustache": "^1.0.0"
+  },
+  "keywords": [ "svgzr", "svg" ]
+}
